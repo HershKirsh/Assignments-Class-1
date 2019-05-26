@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Modak|Righteous" rel="stylesheet">
+    <title>Hershy Kirsh</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="exercise">
+            <h2>Assignment 1</h2>
+            <label for="numbers_array">Enter an array of multiple arrays of numbers</label>
+            <input id="numbers_array" type="text" name="numbers_array" placeholder="ex. [[20, 30], [3, 3], [4, 7, 7]]">
+            <button onclick="processNumArr()">Process the Array</button>
+            <div><h3>The Result Is:</h3>
+            <span id="result1">     </span></div>
+            <h3>The formula that was used is:</h3>
+            <span id="formula1">     </span>
+        </div>
+        <div class="exercise">
+            <h2>Assignment 2</h2>
+            <label for="numbers_array">Enter an array of strings</label>
+            <input id="strings_array" type="text" name="strings_array" placeholder="ex. ['hi', 'hello', 'shalom']">
+            <button onclick="processStringArr()">Process the Array</button>
+            <div><h3>The Result Is:</h3>
+            <span id="result2">     </span></div>
+            <h3>The formula that was used is:</h3>
+            <span id="formula2">     </span>
+        </div>
+        <div id="cat-div" class="exercise">
+            <h2>Assignment 3</h2>
+            <img id="cat-img" src="" alt="cat">
+            <button onclick="getCatImg()">Show Me Another Cat</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
